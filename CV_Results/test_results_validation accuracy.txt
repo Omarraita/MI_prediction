@@ -1,0 +1,10 @@
+Best validation accuracy 0.726476
+The corresponding tuple learning rate - weight decay is :  0.001000 0.15566666666666668 
+The corresponding testing accuracy is :  0.726476 
+The corresponding F1_measure is :  0.376630 
+The corresponding specificity - sensitivity is : 0.8953013676404954 0 
+Test set results are : 
+Accuracy : 0.597222
+Specificity : 0.803922
+Sensitivity : 0.095238
+F1_measure : 0.121212

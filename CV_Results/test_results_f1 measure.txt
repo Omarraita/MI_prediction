@@ -1,0 +1,10 @@
+Best f1 measure 0.390285
+The corresponding tuple learning rate - weight decay is :  0.002000 0.02266666666666667 
+The corresponding testing accuracy is :  0.716952 
+The corresponding F1_measure is :  0.390285 
+The corresponding specificity - sensitivity is : 0.870000496506691 0 
+Test set results are : 
+Accuracy : 0.652778
+Specificity : 0.843137
+Sensitivity : 0.190476
+F1_measure : 0.242424
