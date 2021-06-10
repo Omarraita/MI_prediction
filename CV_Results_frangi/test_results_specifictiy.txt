@@ -1,0 +1,5 @@
+Best specifictiy 0.940261
+The corresponding tuple learning rate - weight decay is :  0.000500 0.17783333333333334 
+The corresponding testing accuracy is :  0.709238 
+The corresponding F1_measure is :  0.195249 
+The corresponding specificity - sensitivity is : 0.9402607077360152 0 
