@@ -75,17 +75,19 @@ Contains the display_patient_views(): Visualization function that displays the d
 
 # Main results
 - Performance of regular resnet18:
-- 
+
 ![Resnet18_performance](Results/model_pretrained_performance.png)
 
 - Performance of the Frangi model: 
-- 
+
 ![Frangi_performance](Results/model_frangi_performance.png)
 
 - Performance of SimSiam model:
+
 ![SimSiam_performance](Results/model_simsiam_performance.png)
 
 - Cross_validation on Frangi model:
+
 ![cross_val_3D](CV_Results_frangi/cv_f1 measure_2D_view2.png)
 
 ![cross_val_heatmap](CV_Results_frangi/cv_f1 measure_heatmap.png)
