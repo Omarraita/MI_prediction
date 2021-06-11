@@ -4,7 +4,9 @@
 In order to run the notebooks, it is necessary to install the following packages:
 
 pip install albumentations==0.4.6 (for the image transformations)
+
 pip install thop (for SimSiam training)
+
 pip install pytorch-gradcam (for the gradcam visualization)
 
 # Data preparation
