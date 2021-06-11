@@ -16,8 +16,8 @@ pip install pytorch-gradcam (for the gradcam visualization)
 We expect the directory structure to be the following:
 
 base_folder/Raw_Data/  
-  Raw/  
-  Labelled/ 
+    Raw/  
+    Labelled/ 
   
  - The augmented data that was used to generate the results can be found in https://drive.switch.ch/index.php/s/Rh9UrhnUmVLjsFn (requires a password). If loaded manually, the expected     directory for the augmented data is:
 
