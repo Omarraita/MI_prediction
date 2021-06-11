@@ -1,7 +1,11 @@
 # MI_prediction
 
 # Requirements
+In order to run the notebooks, it is necessary to install the following packages:
 
+pip install albumentations==0.4.6 (for the image transformations)
+pip install thop (for SimSiam training)
+pip install pytorch-gradcam (for the gradcam visualization)
 
 # Data preparation
 Clone this repository into your base_folder. Download and extract Raw_Data containing raw and labelled angiographic images from https://drive.switch.ch/index.php/s/367fkbeytfy24d8/authenticate (requires a password). 
