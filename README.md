@@ -14,11 +14,13 @@ pip install pytorch-gradcam (for the gradcam visualization)
 
 - Clone this repository into your base_folder. To run the data augmentation, download and extract Raw_Data containing raw and labelled angiography images from https://drive.switch.ch/index.php/s/367fkbeytfy24d8/authenticate (requires a password). 
 We expect the directory structure to be the following:
+
 base_folder/Raw_Data/  
   Raw/  
   Labelled/ 
   
  - The augmented data that was used to generate the results can be found in https://drive.switch.ch/index.php/s/Rh9UrhnUmVLjsFn (requires a password). If loaded manually, the expected     directory for the augmented data is:
+
  base_folder/Datasets/
  
     dataset_patches.npz
