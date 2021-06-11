@@ -52,8 +52,9 @@ Contains the display_patient_views(): Visualization function that displays the d
 - Frangi-Net.ipynb: Contains a Frangi-Net implementation attempt. Might be useful for a future work.
 
 # Python files
--lbael_detection_patch_creation_.py: 
-- cross_validation_lr_wd_frangi.py: runs a cross validation on both parameters learning rate and weight decay.
+
+-label_detection_patch_creation_.py: Runnable file that detects the labels and crops the patches from the Raw Data.
+- cross_validation_lr_wd_frangi.py: Runnable file to run a cross validation on both parameters learning rate and weight decay.
 - implementations.py: contains all the implemented functions for this project. The main parts are: Data preparation, Dataset Classes, Models Initializer, Train and test functions, Cross validation functions.
 - utils.py:  contains util functions such as visualization functions.
 
