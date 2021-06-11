@@ -36,23 +36,24 @@ Link to the model that was trained with a different task (stenosis prediction), 
 - Training.ipynb : This is the main file from which you can run the main experiment:
 
   - Data augmentation
+  
   - Train different models: {0:'model_scratch', 1:'model_pretrained', 2:'model_frangi', 3:'model_frangi_reversed', 4:'model_simsiam', 5:'model_simsiam_frangi', 6:'model_art_data'}
 
   - Load and test the trained models.
 
   - Compare the predictions between the different models.
 
-Display the Gradcam visualizations.
+  - Display the Gradcam visualizations.
 
-Display features with TSNE.
+  - Display features with TSNE.
 
 - Verifications.ipynb : 
 
-Displays the patches extracted from the original images to perform sanity checks. 
+  - Displays the patches extracted from the original images to perform sanity checks. 
 
-Verifies and data coming from the weighted dataloader
+  - Verifies and data coming from the weighted dataloader
 
-Contains the display_patient_views(): Visualization function that displays the different patches coming from the a given patient with the corresponding label and prediction.
+  - Contains the display_patient_views(): Visualization function that displays the different patches coming from the a given patient with the corresponding label and prediction.
 
 - Frangi-Net.ipynb: Contains a Frangi-Net implementation attempt. Might be useful for a future work.
 
