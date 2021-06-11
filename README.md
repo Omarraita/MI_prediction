@@ -88,6 +88,6 @@ Contains the display_patient_views(): Visualization function that displays the d
 
 - Cross_validation on Frangi model:
 
-![cross_val_3D](CV_Results_frangi/cv_f1 measure_2D_view2.png)
+![cross_val_3D](https://github.com/Omarraita/MI_prediction/blob/main/CV_Results_frangi/cv_f1%20measure_2D_view3.png)
 
 ![cross_val_heatmap](CV_Results_frangi/cv_f1 measure_heatmap.png)
