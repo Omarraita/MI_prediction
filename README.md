@@ -1,6 +1,7 @@
 # MI_prediction
 
 # Requirements
+
 In order to run the notebooks, it is necessary to install the following packages:
 
 pip install albumentations==0.4.6 (for the image transformations)
@@ -10,6 +11,7 @@ pip install thop (for SimSiam training)
 pip install pytorch-gradcam (for the gradcam visualization)
 
 # Data preparation
+
 - Clone this repository into your base_folder. To run the data augmentation, download and extract Raw_Data containing raw and labelled angiography images from https://drive.switch.ch/index.php/s/367fkbeytfy24d8/authenticate (requires a password). 
 We expect the directory structure to be the following:
 base_folder/Raw_Data/  
@@ -24,10 +26,13 @@ base_folder/Raw_Data/
    test_patches.npz
 
 # Models 
+
 Link to selected Models https://drive.switch.ch/index.php/s/VsSCiQ5uY3Leikr
+
 Link to the model that was trained with a different task (stenosis prediction), on artificial data https://drive.switch.ch/index.php/s/GLZaagFUdPobYSv
 
 # Notebooks
+
 - Training.ipynb : This is the main file from which you can run the main experiment:
 
 Data augmentation
@@ -61,14 +66,23 @@ Contains the display_patient_views(): Visualization function that displays the d
 # SimSiam
 - Contains the adapted PyTorch implementation of SimSiam (https://github.com/leftthomas/SimSiam) to the cardio dataset. Uses some functions taken from SimCLR implementation (https://github.com/sthalles/SimCLR). 
 
-# Main Results
-- Results:
-- CV_Results:
-- Gradcam_images:
-- test_results:
+# Results Folders
+- Results: Validation results for all models.
+- CV_Results: Cross validation results for the regular resnet18 model.
+- CV_Results_frangi: Cross validation results for the frangi model.
+- Gradcam_images: Heatmap visualizations for different models.
+- test_results: Test results for all models.
 
-Performance of the Resent18 model: 
-![Resnet18_performance](Results/Resnet18_performance.png)
+# Main results
+- Performance of regular resnet18:
+![Resnet18_performance](Results/model_pretrained_performance.png)
+- Performance of the Frangi model: 
+![Frangi_performance](Results/model_frangi_performance.png)
 
-Cross_validation:
-![cross_val](Results/cross_validation.png)
+- Performance of SimSiam model:
+![SimSiam_performance](Results/model_simsiam_performance.png)
+
+- Cross_validation on Frangi model:
+![cross_val](Results_CV_frangi/cv_f1 measure_2D_view3.png)
+
+![cross_val](Results_CV_frangi/cv_f1 measure_heatmap.png)
