@@ -76,7 +76,7 @@ Contains the display_patient_views(): Visualization function that displays the d
 # Main results
 - Performance of regular resnet18: 
 
-![Regular_model](https://github.com/Omarraita/MI_prediction/blob/main/Results/model_pretrained_accuracies.png)
+![Regular_model](https://github.com/Omarraita/MI_prediction/blob/main/Results/model_pretrained_performance_metrics.png)
 
 - Performance of the Frangi model: 
 
