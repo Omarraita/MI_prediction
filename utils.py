@@ -219,7 +219,8 @@ def display_gradcam(model, model_name, base_folder, visualization_file, data_tra
         ax.set_title(model_name+' predicted: {}'.format(class_names[all_outputs[random_index].int()]), color = color)
         imshow(image)
 
-    plt.title('predicted: {}'.format(class_names[all_outputs[random_index].int()]), color = color)
+    #plt.title('predicted: {}'.format(class_names[all_outputs[random_index].int()]), color = color)
+    plt.title('Patch index: '+ str(random_index), color = color)
     fig.savefig(base_folder+'Gradcam_images/'+model_name+'_patch_'+str(random_index)+'.png')
 
     plt.imshow(annotated_patch)
