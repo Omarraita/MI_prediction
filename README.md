@@ -78,17 +78,20 @@ Link to the model that was trained with a different task (stenosis prediction), 
 - CV_Results_frangi: Cross validation results for the frangi model.
 - Gradcam_images: Heatmap visualizations for different models.
 - test_results: Test results for all models.
+-
+# Report
+The report of this project can be found under MI_prediction.pdf
 
 # Main results
-- Performance of regular resnet18: 
+- Performance of regular resnet18 on the validation set: 
 
 ![Regular_model](https://github.com/Omarraita/MI_prediction/blob/main/Results/model_pretrained_performance_metrics.png)
 
-- Performance of the Frangi model: 
+- Performance of the Frangi model on the validation set: 
 
 ![Frangi_performance](https://github.com/Omarraita/MI_prediction/blob/main/Results/model_frangi_performance_metrics.png)
 
-- Performance of SimSiam model:
+- Performance of SimSiam model on the validation set:
 
 ![SimSiam_performance](https://github.com/Omarraita/MI_prediction/blob/main/Results/model_scratch_performance_metrics.png)
 
