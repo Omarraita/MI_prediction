@@ -75,8 +75,11 @@ Contains the display_patient_views(): Visualization function that displays the d
 
 # Main results
 - Performance of regular resnet18:
+- 
 ![Resnet18_performance](Results/model_pretrained_performance.png)
+
 - Performance of the Frangi model: 
+- 
 ![Frangi_performance](Results/model_frangi_performance.png)
 
 - Performance of SimSiam model:
