@@ -20,9 +20,13 @@ base_folder/Raw_Data/
   
  - The augmented data that was used to generate the results can be found in https://drive.switch.ch/index.php/s/Rh9UrhnUmVLjsFn (requires a password). If loaded manually, the expected     directory for the augmented data is:
  base_folder/Datasets/
+ 
  dataset_patches.npz
+ 
  training_patches_augRed.npz
+ 
  validation_patches_augRed.npz
+ 
  test_patches.npz
 
 # Models 
