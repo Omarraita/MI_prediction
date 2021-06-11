@@ -10,7 +10,7 @@ pip install thop (for SimSiam training)
 pip install pytorch-gradcam (for the gradcam visualization)
 
 # Data preparation
-Clone this repository into your base_folder. Download and extract Raw_Data containing raw and labelled angiographic images from https://drive.switch.ch/index.php/s/367fkbeytfy24d8/authenticate (requires a password). 
+Clone this repository into your base_folder. To run the data augmentation, download and extract Raw_Data containing raw and labelled angiography images from https://drive.switch.ch/index.php/s/367fkbeytfy24d8/authenticate (requires a password). 
 We expect the directory structure to be the following:
 base_folder/Raw_Data/  
   Raw/  
@@ -28,9 +28,28 @@ Link to selected Models https://drive.switch.ch/index.php/s/VsSCiQ5uY3Leikr
 Link to the model that was trained with a different task (stenosis prediction), on artificial data https://drive.switch.ch/index.php/s/GLZaagFUdPobYSv
 
 # Notebooks
-Data_Verification.ipynb : This notebook is used to display the patches extracted from the original images. It allows to verify that the data has been augmented/transformed properly.  
+- Training.ipynb : This is the main file from which you can run the main experiment:
 
-Training.ipynb : This is the main file as it containing different sections. Allows to perform a data augmentation, parameters selection, training, displaying results and testing.
+Data augmentation
+Train different models: {0:'model_scratch', 1:'model_pretrained', 2:'model_frangi', 3:'model_frangi_reversed', 4:'model_simsiam', 5:'model_simsiam_frangi', 6:'model_art_data'}
+
+Load and test the trained models.
+
+Compare the predictions between the different models.
+
+Display the Gradcam visualizations.
+
+Display features with TSNE.
+
+- Verifications.ipynb : 
+
+Displays the patches extracted from the original images to perform sanity checks. 
+
+Verifies and data coming from the weighted dataloader
+
+Contains the display_patient_views(): Visualization function that displays the different patches coming from the a given patient with the corresponding label and prediction.
+
+- Frangi-Net.ipynb: Contains a Frangi-Net implementation attempt. Might be useful for a future work.
 
 # Python files
 
