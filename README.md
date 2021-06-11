@@ -35,12 +35,12 @@ Link to the model that was trained with a different task (stenosis prediction), 
 
 - Training.ipynb : This is the main file from which you can run the main experiment:
 
-Data augmentation
-Train different models: {0:'model_scratch', 1:'model_pretrained', 2:'model_frangi', 3:'model_frangi_reversed', 4:'model_simsiam', 5:'model_simsiam_frangi', 6:'model_art_data'}
+  - Data augmentation
+  - Train different models: {0:'model_scratch', 1:'model_pretrained', 2:'model_frangi', 3:'model_frangi_reversed', 4:'model_simsiam', 5:'model_simsiam_frangi', 6:'model_art_data'}
 
-Load and test the trained models.
+  - Load and test the trained models.
 
-Compare the predictions between the different models.
+  - Compare the predictions between the different models.
 
 Display the Gradcam visualizations.
 
