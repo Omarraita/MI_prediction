@@ -83,6 +83,6 @@ Contains the display_patient_views(): Visualization function that displays the d
 ![SimSiam_performance](Results/model_simsiam_performance.png)
 
 - Cross_validation on Frangi model:
-![cross_val](Results_CV_frangi/cv_f1 measure_2D_view3.png)
+![cross_val_3D](CV_Results_frangi/cv_f1 measure_2D_view3.png)
 
-![cross_val](Results_CV_frangi/cv_f1 measure_heatmap.png)
+![cross_val_heatmap](CV_Results_frangi/cv_f1 measure_heatmap.png)
