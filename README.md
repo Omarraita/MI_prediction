@@ -28,9 +28,10 @@ Link to selected Models https://drive.switch.ch/index.php/s/VsSCiQ5uY3Leikr
 Link to the model that was trained with a different task (stenosis prediction), on artificial data https://drive.switch.ch/index.php/s/GLZaagFUdPobYSv
 
 # Notebooks
-- Training.ipynb : This is the main file from which you can run the main experiment:
+- Training.ipynb : This is the main file from which you can run the main experiments.
 
 Data augmentation
+
 Train different models: {0:'model_scratch', 1:'model_pretrained', 2:'model_frangi', 3:'model_frangi_reversed', 4:'model_simsiam', 5:'model_simsiam_frangi', 6:'model_art_data'}
 
 Load and test the trained models.
