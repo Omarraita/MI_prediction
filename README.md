@@ -1,5 +1,10 @@
 # MI_prediction
 
+The goal of this project is to use Machine learning and Deep learning techniques to predict, at the stenosis level, whehter the latter will cause a Myocardial Infarction or not.
+
+# Report
+The report of this project can be found under MI_prediction.pdf
+
 # Requirements
 
 In order to run the notebooks, it is necessary to install the following packages:
@@ -79,8 +84,7 @@ Link to the model that was trained with a different task (stenosis prediction), 
 - Gradcam_images: Heatmap visualizations for different models.
 - test_results: Test results for all models.
 -
-# Report
-The report of this project can be found under MI_prediction.pdf
+
 
 # Main results
 - Performance of regular resnet18 on the validation set: 
