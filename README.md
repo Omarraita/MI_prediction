@@ -99,4 +99,3 @@ The report of this project can be found under MI_prediction.pdf
 
 ![cross_val_3D](https://github.com/Omarraita/MI_prediction/blob/main/CV_Results_frangi/cv_f1%20measure_2D_view3.png)
 
-![cross_val_heatmap](https://github.com/Omarraita/MI_prediction/blob/main/CV_Results_frangi/cv_f1%20measure_heatmap.png)
