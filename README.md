@@ -3,7 +3,7 @@
 The goal of this project is to use Machine learning and Deep learning techniques to predict, at the stenosis level, whehter the latter will cause a Myocardial Infarction or not.
 
 # Report
-The report of this project can be found under MI_prediction.pdf
+The report of this project can be found [here](https://github.com/Omarraita/MI_prediction/blob/main/MI_prediction.pdf).
 
 # Requirements
 
